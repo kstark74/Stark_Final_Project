@@ -1,125 +1,160 @@
-*{
-   max-width: 1280px;
-   margin: auto;
-   font-family: Arial, Verdana, sans-serif;
-   line-height: 1.5;
-   box-sizing: border-box;
-    
-
-}
-h1{
-    text-align: center;
-    display: block;
-    padding: 50px;
-    font-size: 50px;
-    
-}
-h2{
-    text-align: center;
-    background-color: #196774;
-    padding: 0%;
-    color: #fff;
-}
-main{
-    padding: 20;
-    list-style-type: none;
-    text-align: center;
-    text-decoration: none;
-}
-nav{
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    color: black;
-}
-nav ul{
-    padding: 0%;
-}
-nav li{
-    display: inline;
-    list-style: none;
-    padding: 20px;
-}
-nav a{
-    display: inline-block;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 20px;
-    padding: 20px;
-    color: rgba(240, 148,31, .6);
-    font-size: 25px;
+* {
+	max-width: 1280px;
+	margin: auto;
+	line-height: 1.5;
+	box-sizing: border-box;
 }
 
-#local{
-    display: inline-block;
-    text-align: center;
-    margin: 0;
-    
+h1 {
+	text-align: center;
+	display: block;
+	padding: 50px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
 }
-#local p{
-    display: inline-block;
-    width: 50%;
+
+h2 {
+	text-align: center;
+	background-color: #196774;
+	padding: 0%;
+	color: #fff;
+	font-family: 'Courier New', Courier, monospace;
 }
-#chef p{
-    display: inline-block;
-    width: 50%;
+
+main {
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+}
+
+main li {
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+	background-color: #196774;
+	color: #fff;
+}
+
+h3 {
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+	font-size: 20px;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+nav {
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: black;
+}
+
+nav ul {
+	padding: 0%;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+	padding: 20px;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 20px;
+	padding: 20px;
+	color: orange;
+	font-size: 25px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#local {
+	display: inline-block;
+	text-align: center;
+	margin: 0;
 
 }
-#chef{
-    display: inline;
-    text-align: center;
-    margin: 0;
+
+#local p {
+	display: inline-block;
+	width: 50%;
 }
-footer{
-    padding: 20px;
+
+#chef p {
+	display: inline-block;
+	width: 50%;
+}
+
+#chef {
+	display: inline;
+	text-align: center;
+	margin: 0;
+}
+
+footer {
+	padding: 20px;
 	background-color: #196774;
 	color: #fff;
 	text-align: center;
 }
-#chef img{
-    float: right;
+
+#chef img {
+	float: right;
 }
-#local img{
-    float: left;
+
+#local img {
+	float: left;
 }
-#local h3{
-    display: inline-block;
-    width: 50%;
- 
+
+#local h3 {
+	display: inline-block;
+	width: 50%;
+
 }
-#chef h3{
-    display: inline-block;
-    width: 50%;
+
+#chef h3 {
+	display: inline-block;
+	width: 50%;
 }
 
 
-body{
+body {
 	margin: 0;
 	color: #363432;
 }
 
-form{
+form {
 	width: 350px;
 	margin: 16px auto;
-	background-color: rgba(240, 148,31, .6);
+	background-color: rgba(240, 148, 31, .6);
 	padding: 16px;
 	color: #363432;
 	border-radius: 4px;
 }
 
-input, label, select, textarea{
+input,
+label,
+select,
+textarea {
 	display: block;
 	width: 100%;
 }
 
-label{
+label {
 	margin: 0 0 4px 16px;
 	font-weight: bold;
 }
 
-input, select, textarea{
+input,
+select,
+textarea {
 	padding: 10px;
 	font-size: 1rem;
 	margin-bottom: 24px;
@@ -127,7 +162,7 @@ input, select, textarea{
 	border: 1px inset #196774;
 }
 
-fieldset{
+fieldset {
 	margin-bottom: 24px;
 	border-radius: 4px;
 	border-color: #363432;
@@ -136,16 +171,16 @@ fieldset{
 	gap: 8px 0;
 }
 
-legend{
+legend {
 	font-weight: bold;
-	
+
 }
 
-fieldset label{
+fieldset label {
 	margin-left: 0;
 }
 
-input[type=submit]{
+input[type=submit] {
 	background-color: #196774;
 	border: none;
 	color: #fff;
@@ -153,74 +188,72 @@ input[type=submit]{
 	box-shadow: -6px 6px 10px #363432;
 }
 
-input:focus, select:focus, textarea:focus{
+input:focus,
+select:focus,
+textarea:focus {
 	outline: 3px solid #196774;
 }
 
-input[type=submit]:focus{
+input[type=submit]:focus {
 	outline: 3px solid #ef6024;
 }
 
-input[type=submit]:hover{
+input[type=submit]:hover {
 	box-shadow: -3px 3px 5px #363432;
 }
 
-input[type=radio] + label {
-   	cursor: pointer;
+input[type=radio]+label {
+	cursor: pointer;
 	display: flex;
 	align-items: center;
 }
 
 input[type=radio] {
-   	appearance: none;
-   	margin: 0;
+	appearance: none;
+	margin: 0;
 	padding: 0;
 	border: none;
 	font-size: 0;
 	border-radius: 0;
 }
 
-input[type=radio] + label::before {
-   	content: "\00a0";  
+input[type=radio]+label::before {
+	content: "\00a0";
 	font-size: 2.25em;
 	line-height: 0.65;
-   	border-radius: 50%;
-   	display: inline-block;  
-   	height: 20px;
-   	width: 22px;
-   	text-align: center;
-   	margin-right: 16px;
-   	border: 2px solid white;   
-   	background-color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	height: 20px;
+	width: 22px;
+	text-align: center;
+	margin-right: 16px;
+	border: 2px solid white;
+	background-color: #fff;
 	padding-bottom: 2px;
 }
 
-input[type=radio]:checked + label::before {
-   	content: "\2022";
-   	color: #fff;
-   	background: #196774;
+input[type=radio]:checked+label::before {
+	content: "\2022";
+	color: #fff;
+	background: #196774;
 }
 
-input[type=radio]:focus{
+input[type=radio]:focus {
 	outline: none;
 }
 
-input[type=radio]:focus + label::before {
-   	box-shadow: 0 0 0 2px #196774;
+input[type=radio]:focus+label::before {
+	box-shadow: 0 0 0 2px #196774;
 }
-header, nav, aside, footer{
-    border: 1px solid #ccc;
-    text-align: center;
-    float: left;
-    width: 100%;
-    margin: 5px 0px;
-}
-aside::nth-child(1){
-    width:60%;
-    height: 400px;
-}
-aside:nth-child(2){
-    width: 38%;
-    float: right;
-    height: 400px;
+
+header,
+nav,
+aside,
+footer {
+	border: 1px solid #ccc;
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin: 5px 0px;
+
 }
